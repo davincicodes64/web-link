@@ -3,8 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const links = document.querySelectorAll(".links a");
     links.forEach(link => {
-        link.addEventListener("click", function () {
-            alert("Anda akan diarahkan ke: " + this.href);
+        link.addEventListener("click", function (event) {
+            // Menghentikan event default jika ingin mencegah navigasi
+            // event.preventDefault(); 
+
+            console.log("Tautan diklik: " + this.href);
         });
     });
 });
