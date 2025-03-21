@@ -9,7 +9,7 @@ body {
 
 /* Kontainer utama */
 .container {
-    max-width: 400px;
+    max-width: 330px;
     margin: 50px auto;
     background: rgb(255, 249, 193);
     padding: 20px;
